@@ -1,0 +1,157 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Navbar-div {
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  gap: 200px;
+  height: 80px;
+  background: #eef1fe;
+  box-shadow: 2px 2px 10px rgba(165, 141, 141, 0.07);
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.links-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 56px;
+  width: 532px;
+  height: 24px;
+}
+
+.btn-nav {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 120px;
+  height: 60px;
+  background: #001bb8;
+  border-radius: 8px;
+  order: 2;
+}
+
+.home-hero-container {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 500px;
+  align-content: space-around;
+  background: rgba(167, 183, 250, 0.19);
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.hero-right-div {
+  justify-content: center;
+  margin-top: 4rem;
+  padding-right: 40px;
+}
+
+.hero-left-div h1 {
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  color: #02113f;
+}
+
+.hero-left-div h2 {
+  padding-left: 4rem;
+  font-size: 20px;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  color: white;
+  background: #001bb8;
+  border-radius: 8px;
+}
+
+.icons-div h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 32px;
+  font-weight: 600;
+  color: #02113f;
+}
+
+.container {
+  padding-top: 3rem;
+  padding-left: 5rem;
+}
+.search-div {
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: 900;
+  font-size: 64px;
+  color: #02113f;
+}
+.search-div h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.search-box {
+  margin-left: 30rem;
+  padding-top: 2rem;
+}
+.search-box-text {
+  font-size: 17px;
+  padding: 4px;
+  width: 50%;
+}
+
+.first-section-top-div-text {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #02113f;
+  padding-top: 4rem;
+}
+
+/* Cards Styling */
+
+.container {
+  display: flex;
+}
+
+.card {
+  width: 12rem;
+  border: #001bb8;
+  border-radius: 8px;
+  margin-left: 1rem;
+  background-color: #eff2fe;
+}
+
+.second-section-top-div-text {
+  margin-top: 8rem;
+  text-align: center;
+  color: #02113f;
+  font-size: 32px;
+  font-weight: 600;
+}
