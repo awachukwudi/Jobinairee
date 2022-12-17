@@ -140,16 +140,33 @@
   display: flex;
 }
 
-.card {
+.first-card-sec .card1 {
   width: 12rem;
   border: #001bb8;
   border-radius: 8px;
   margin-left: 1rem;
+}
+
+.second-card-section .card {
+  width: 12rem;
+  border: #001bb8;
+  border-radius: 8px;
+  margin-left: 1.5rem;
   background-color: #eff2fe;
 }
 
+.second-card-section {
+  margin-left: 6rem;
+}
+
+.second-card-section .h6 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #02113f;
+}
+
 .second-section-top-div-text {
-  margin-top: 8rem;
+  padding-top: 8rem;
   text-align: center;
   color: #02113f;
   font-size: 32px;

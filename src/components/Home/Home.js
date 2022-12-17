@@ -4,6 +4,18 @@ import Google from "../Images/Google.png";
 import Pinterest from "../Images/Pinterest.png";
 import Vector from "../Images/Vector.png";
 import WeChat from "../Images/WeChat.png";
+import SoftwareEngineer from "../Images/softwareengineer.png";
+import Marketing from "../Images/marketing.png";
+import CustomerService from "../Images/customerservice.png";
+import Productdesigner from "../Images/productdesigner.png";
+// import Productmanager from "../Images/productmanager.png";
+// import Contentcreator from "../Images/contentcreator.png";
+// import Salesmarketing from "../Images/salesmarketing.png";
+// import Businessdeveloper from "../Images/businessdeveloper.png";
+import Registeraccount from "../Images/registeraccount.png";
+import Createresume from "../Images/createresume.png";
+import Findmatchjobs from "../Images/findmatchjobs.png";
+import Easyapply from "../Images/easyapply.png";
 
 export const Home = () => {
   return (
@@ -87,13 +99,9 @@ export const Home = () => {
           <div class="first-card-sec container d-flex  mt-5">
             <div class="row">
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="50"
-                    />
+                    <img src={Marketing} alt="" width="50" />
                   </div>
                   <h6>Marketing</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -105,13 +113,9 @@ export const Home = () => {
 
             <div class="row">
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="50"
-                    />
+                    <img src={CustomerService} alt="" width="50" />
                   </div>
                   <h6>Customer Service</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -123,13 +127,9 @@ export const Home = () => {
 
             <div class="row">
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="50"
-                    />
+                    <img src={SoftwareEngineer} alt="" width="50" />
                   </div>
                   <h6>Software Engineer</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -141,13 +141,9 @@ export const Home = () => {
 
             <div class="row">
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="50"
-                    />
+                    <img src={Productdesigner} alt="" width="50" />
                   </div>
                   <h6>Product Designer</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -172,11 +168,23 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="70"
-                    />
+                    <img src={Registeraccount} alt="" width="70" />
+                  </div>
+                  <h6>Register Account</h6>
+                  <div class="Register-account-text d-flex justify-content-between install mt-3">
+                    <span>
+                      Register Account with few steps and get work opportunities
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card p-3">
+                  <div class="d-flex flex-row mb-3">
+                    <img src={Createresume} alt="" width="70" />
                   </div>
                   <h6>
                     Get more context on your users with stripe data inside our
@@ -193,11 +201,7 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="70"
-                    />
+                    <img src={Findmatchjobs} alt="" width="70" />
                   </div>
                   <h6>
                     Get more context on your users with stripe data inside our
@@ -214,32 +218,7 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="70"
-                    />
-                  </div>
-                  <h6>
-                    Get more context on your users with stripe data inside our
-                    platform.
-                  </h6>
-                  <div class="d-flex justify-content-between install mt-3">
-                    <span>Installed 345 times</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card p-3">
-                  <div class="d-flex flex-row mb-3">
-                    <img
-                      src="https://i.imgur.com/ccMhxvC.png"
-                      alt=""
-                      width="70"
-                    />
+                    <img src={Easyapply} alt="" width="70" />
                   </div>
                   <h6>
                     Get more context on your users with stripe data inside our
