@@ -100,8 +100,9 @@
 }
 
 .container {
-  padding-top: 3rem;
+  padding-top: 0.5rem;
   padding-left: 5rem;
+  display: flex;
 }
 .search-div h2 {
   text-align: center;
@@ -136,10 +137,6 @@
 
 /* Cards Styling */
 
-.container {
-  display: flex;
-}
-
 .icons-sec {
   margin-left: 11rem;
   margin-top: 1.5rem;
@@ -149,6 +146,8 @@
   width: 12rem;
   border-radius: 8px;
   margin-left: 1rem;
+  border: #001bb8;
+  border-style: inset;
 }
 
 .second-card-section .card {
@@ -186,6 +185,9 @@
 .one {
   background-color: #ffffff;
   border-radius: 5px;
+  border-style: solid;
+  border: #001bb8;
+  border-style: outset;
 }
 
 .name {

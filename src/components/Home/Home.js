@@ -8,10 +8,10 @@ import SoftwareEngineer from "../Images/softwareengineer.png";
 import Marketing from "../Images/marketing.png";
 import CustomerService from "../Images/customerservice.png";
 import Productdesigner from "../Images/productdesigner.png";
-// import Productmanager from "../Images/productmanager.png";
-// import Contentcreator from "../Images/contentcreator.png";
-// import Salesmarketing from "../Images/salesmarketing.png";
-// import Businessdeveloper from "../Images/businessdeveloper.png";
+import Productmanager from "../Images/productmanager.png";
+import Contentcreator from "../Images/contentcreator.png";
+import Salesmarketing from "../Images/salesmarketing.png";
+import Businessdeveloper from "../Images/businessdeveloper.png";
 import Registeraccount from "../Images/registeraccount.png";
 import Createresume from "../Images/createresume.png";
 import Findmatchjobs from "../Images/findmatchjobs.png";
@@ -71,6 +71,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
       <section className="container-fluid">
         <div className="search-div container-fluid">
           <h2>Search For A Job </h2>
@@ -95,8 +96,70 @@ export const Home = () => {
         <div className="first-section-top-div-text">
           <h2>Explore by Categories</h2>
         </div>
-        <div className="container border-primary">
+        <div className="container ">
           <div class="first-card-sec  container d-flex  mt-5 ">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card1 p-3 ">
+                  <div class="d-flex flex-row mb-3">
+                    <img src={Productmanager} alt="" width="40" />
+                  </div>
+                  <h6>Product Manager</h6>
+                  <div class="d-flex justify-content-between  mt-3">
+                    <span>57 Vacancy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card1 p-3">
+                  <div class="d-flex flex-row mb-3">
+                    <img src={Contentcreator} alt="" width="40" />
+                  </div>
+                  <h6>Content Creator</h6>
+                  <div class="d-flex justify-content-between install mt-3">
+                    <span>74 Vacancy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card1 p-3">
+                  <div class="d-flex flex-row mb-3">
+                    <img src={Salesmarketing} alt="" width="40" />
+                  </div>
+                  <h6>Sales $ Marketing</h6>
+                  <div class="d-flex justify-content-between install mt-3">
+                    <span>126 Vacancy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card1 p-3">
+                  <div class="d-flex flex-row mb-3">
+                    <img src={Businessdeveloper} alt="" width="40" />
+                  </div>
+                  <h6>Business Developer</h6>
+                  <div class="d-flex justify-content-between install mt-3">
+                    <span>205 Vacancy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* second card stack */}
+
+        <div className="container ">
+          <div class="first-card-sec  container d-flex  mt-1 ">
             <div class="row">
               <div class="col-md-4">
                 <div class="card1 p-3 ">
@@ -104,7 +167,7 @@ export const Home = () => {
                     <img src={Marketing} alt="" width="40" />
                   </div>
                   <h6>Marketing</h6>
-                  <div class="d-flex justify-content-between install mt-3">
+                  <div class="d-flex justify-content-between  mt-3">
                     <span>142 Vacancy</span>
                   </div>
                 </div>
@@ -224,72 +287,6 @@ export const Home = () => {
                     <span>
                       Apply for jobs with easy with your registered profile
                     </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container d-flex justify-content-center mt-5 border border-primary">
-          <div class="main ">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="col-md-3">
-                  <div>
-                    <div class="one">
-                      <div class="text-right pr-2 pt-1">
-                        <i class="mdi mdi-dots-vertical dotdot"></i>
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        <img
-                          src="https://i.imgur.com/2pRGm74.jpg"
-                          alt="..."
-                          width="50"
-                          class="rounded-circle"
-                        />
-                      </div>
-                      <div class="text-center">
-                        <span class="name">Cvita Doleschall</span>
-                        <p class="mail">hjsus_ksfjk@gmail.com</p>
-                      </div>
-                      <div class="text-center">
-                        <span class="total d-block pt-2">
-                          Total Contributions
-                        </span>
-                        <span class="money">$ 123,321</span>
-                      </div>
-                      <div class="text-center align-items-center d-flex justify-content-center pt-2 pb-2">
-                        <span class="details">View Details</span>
-                        <i class="mdi mdi-arrow-right right pl-1"></i>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="pt-2">
-                    <div class="one">
-                      <div class="text-right pr-2 pt-1">
-                        <i class="mdi mdi-dots-vertical dotdot"></i>
-                      </div>
-                      <div class="d-flex justify-content-center">
-                        <img
-                          src={Marketing}
-                          alt="..."
-                          width="50"
-                          class="rounded-circle"
-                        />
-                      </div>
-
-                      <div class="text-center">
-                        <span class="money">Marketing</span>
-                      </div>
-                      <div class="text-center align-items-center d-flex justify-content-center pt-2 pb-2">
-                        <span class="details">142 Vacancy</span>
-                        <i class="mdi mdi-arrow-right right pl-1"></i>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
