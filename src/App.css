@@ -43,7 +43,7 @@
   align-items: center;
   color: white;
   width: 120px;
-  height: 60px;
+  height: 40px;
   background: #001bb8;
   border-radius: 8px;
   order: 2;
@@ -122,17 +122,22 @@
   padding-top: 2rem;
 }
 .search-box-text {
-  font-size: 17px;
   padding: 4px;
   width: 50%;
 }
 
-.first-section-top-div-text {
+.first-section-top-div-text h2 {
   font-size: 32px;
   font-weight: 600;
   text-align: center;
   color: #02113f;
   padding-top: 4rem;
+}
+
+.second-section-top-div-text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #02113f;
 }
 
 /* Cards Styling */
@@ -175,38 +180,35 @@
   font-weight: 600;
 }
 
-/* new card test */
-
-.main {
-  width: 240px;
-  background-color: #ffffff;
+.third-section {
+  border-radius: 8px;
+  margin: 10rem;
+  padding-bottom: 2rem;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  border-style: inset;
 }
 
-.one {
-  background-color: #ffffff;
-  border-radius: 5px;
-  border-style: solid;
-  border: #001bb8;
-  border-style: outset;
+.container3 {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
 }
 
-.name {
-  font-size: 15px;
-  color: #b7b7b7;
+.card2 {
+  padding-right: 2rem;
+}
+
+.card2 h2 {
+  font-size: 32px;
   font-weight: 600;
+  color: #02113f;
 }
 
-.money {
-  font-size: 18px;
-  font-weight: 600;
-  color: #dedbdb;
-}
-.details {
-  font-size: 8px;
+.card2 h4 {
+  font-size: 24px;
   font-weight: 500;
-  color: #0606b5;
+  color: #02113f;
 }
-.right {
-  font-size: 12px;
-  color: #0606b5;
+
+#btn-third-card {
+  margin-left: -8px;
 }

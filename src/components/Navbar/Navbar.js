@@ -26,7 +26,7 @@ export const Navbar = () => {
             Contact us
           </Link>
         </div>
-        <button className="btn-nav" type="button">
+        <button className="btn-nav " type="button">
           Post a Job
         </button>
       </div>

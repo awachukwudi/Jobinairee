@@ -31,7 +31,7 @@ export const Home = () => {
             career portal for job hunters and employers.
           </h2>
 
-          <button className="btn" type="button">
+          <button className="btn btn-primary py-2 px-5 " type="button">
             Get Started
           </button>
         </div>
@@ -81,7 +81,7 @@ export const Home = () => {
           </h3>
         </div>
 
-        <div className="search-box container-fluid">
+        <div className="search-box container-fluid ">
           <input
             className="search-box-text container-fluid"
             type="text"
@@ -287,6 +287,98 @@ export const Home = () => {
                     <span>
                       Apply for jobs with easy with your registered profile
                     </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Third section first card stack */}
+
+      <section>
+        <div className="third-section">
+          <div className="container3 ">
+            <div class="first-card-sec  container d-flex  mt-5 ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card2 p-3 ">
+                    <h2>
+                      There is more to explore with <br />
+                      Jobinairee
+                    </h2>
+                    <h4>
+                      Create a free account, complete your profile, <br />
+                      and get matched with your dream job
+                    </h4>
+                    <div class="d-flex justify-content-between  mt-3">
+                      <span>
+                        <button
+                          class="btn btn-primary py-2 px-5 "
+                          id="btn-third-card"
+                        >
+                          Get Started
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mx-4">
+                <div class="col-md-4">
+                  <div class="card2 p-3">
+                    <h2>Content Creator</h2>
+                    <div class="d-flex justify-content-between install mt-3">
+                      <span>74 Vacancy</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Third section second card stack */}
+
+          <div className="container3">
+            <div class="first-card-sec  container d-flex  mt-1 ">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card2 p-3 ">
+                    <div class="d-flex flex-row mb-3">
+                      <img src={Marketing} alt="" width="40" />
+                    </div>
+                    <h2>Get seen by employers</h2>
+                    <div class="d-flex justify-content-between  mt-3">
+                      <span>
+                        <h4>
+                          With a complete profile, your <br />
+                          applications and profile are promoted <br />
+                          to top employers, so you can stand out
+                        </h4>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mx-4">
+                <div class="col-md-4">
+                  <div class="card2 p-3">
+                    <div class="d-flex flex-row mb-3">
+                      <img src={CustomerService} alt="" width="40" />
+                    </div>
+                    <h2>Get access to top jobs first</h2>
+                    <div class="d-flex justify-content-between install mt-3">
+                      <span>
+                        <h4>
+                          Sign up for the job alerts and
+                          <br /> be first in line for the latest jobs
+                          <br /> that match your profile
+                        </h4>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
