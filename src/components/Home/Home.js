@@ -48,11 +48,11 @@ export const Home = () => {
       </section>
       <section className="container-fluid">
         <div className="icons-div">
-          <h2>Job opportunities from leading companies</h2>
+          <h2 class="pt-4">Job opportunities from leading companies</h2>
         </div>
 
         <div className="container">
-          <div class="columns is-small">
+          <div class="icons-sec columns is-small">
             <div class="column">
               <img src={Vector} alt="Bank-of-America-logo" />
             </div>
@@ -95,13 +95,13 @@ export const Home = () => {
         <div className="first-section-top-div-text">
           <h2>Explore by Categories</h2>
         </div>
-        <div className="container">
-          <div class="first-card-sec container d-flex  mt-5">
+        <div className="container border-primary">
+          <div class="first-card-sec  container d-flex  mt-5 ">
             <div class="row">
               <div class="col-md-4">
-                <div class="card1 p-3">
+                <div class="card1 p-3 ">
                   <div class="d-flex flex-row mb-3">
-                    <img src={Marketing} alt="" width="50" />
+                    <img src={Marketing} alt="" width="40" />
                   </div>
                   <h6>Marketing</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -115,7 +115,7 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={CustomerService} alt="" width="50" />
+                    <img src={CustomerService} alt="" width="40" />
                   </div>
                   <h6>Customer Service</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -129,7 +129,7 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={SoftwareEngineer} alt="" width="50" />
+                    <img src={SoftwareEngineer} alt="" width="40" />
                   </div>
                   <h6>Software Engineer</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -143,7 +143,7 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card1 p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={Productdesigner} alt="" width="50" />
+                    <img src={Productdesigner} alt="" width="40" />
                   </div>
                   <h6>Product Designer</h6>
                   <div class="d-flex justify-content-between install mt-3">
@@ -168,7 +168,7 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={Registeraccount} alt="" width="70" />
+                    <img src={Registeraccount} alt="" width="40" />
                   </div>
                   <h6>Register Account</h6>
                   <div class="Register-account-text d-flex justify-content-between install mt-3">
@@ -184,14 +184,13 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={Createresume} alt="" width="70" />
+                    <img src={Createresume} alt="" width="40" />
                   </div>
-                  <h6>
-                    Get more context on your users with stripe data inside our
-                    platform.
-                  </h6>
+                  <h6>Create Resume</h6>
                   <div class="d-flex justify-content-between install mt-3">
-                    <span>Installed 345 times</span>
+                    <span>
+                      Create a resume on Jobineer and get hired easily
+                    </span>
                   </div>
                 </div>
               </div>
@@ -201,14 +200,14 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={Findmatchjobs} alt="" width="70" />
+                    <img src={Findmatchjobs} alt="" width="40" />
                   </div>
-                  <h6>
-                    Get more context on your users with stripe data inside our
-                    platform.
-                  </h6>
+                  <h6>Find Matched Jobs</h6>
                   <div class="d-flex justify-content-between install mt-3">
-                    <span>Installed 345 times</span>
+                    <span>
+                      Filter your job search accordingly and receive various
+                      offers
+                    </span>
                   </div>
                 </div>
               </div>
@@ -218,14 +217,79 @@ export const Home = () => {
               <div class="col-md-4">
                 <div class="card p-3">
                   <div class="d-flex flex-row mb-3">
-                    <img src={Easyapply} alt="" width="70" />
+                    <img src={Easyapply} alt="" width="40" />
                   </div>
-                  <h6>
-                    Get more context on your users with stripe data inside our
-                    platform.
-                  </h6>
+                  <h6>Easy Apply</h6>
                   <div class="d-flex justify-content-between install mt-3">
-                    <span>Installed 345 times</span>
+                    <span>
+                      Apply for jobs with easy with your registered profile
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container d-flex justify-content-center mt-5 border border-primary">
+          <div class="main ">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="col-md-3">
+                  <div>
+                    <div class="one">
+                      <div class="text-right pr-2 pt-1">
+                        <i class="mdi mdi-dots-vertical dotdot"></i>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src="https://i.imgur.com/2pRGm74.jpg"
+                          alt="..."
+                          width="50"
+                          class="rounded-circle"
+                        />
+                      </div>
+                      <div class="text-center">
+                        <span class="name">Cvita Doleschall</span>
+                        <p class="mail">hjsus_ksfjk@gmail.com</p>
+                      </div>
+                      <div class="text-center">
+                        <span class="total d-block pt-2">
+                          Total Contributions
+                        </span>
+                        <span class="money">$ 123,321</span>
+                      </div>
+                      <div class="text-center align-items-center d-flex justify-content-center pt-2 pb-2">
+                        <span class="details">View Details</span>
+                        <i class="mdi mdi-arrow-right right pl-1"></i>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-2">
+                    <div class="one">
+                      <div class="text-right pr-2 pt-1">
+                        <i class="mdi mdi-dots-vertical dotdot"></i>
+                      </div>
+                      <div class="d-flex justify-content-center">
+                        <img
+                          src={Marketing}
+                          alt="..."
+                          width="50"
+                          class="rounded-circle"
+                        />
+                      </div>
+
+                      <div class="text-center">
+                        <span class="money">Marketing</span>
+                      </div>
+                      <div class="text-center align-items-center d-flex justify-content-center pt-2 pb-2">
+                        <span class="details">142 Vacancy</span>
+                        <i class="mdi mdi-arrow-right right pl-1"></i>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

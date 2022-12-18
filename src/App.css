@@ -103,7 +103,7 @@
   padding-top: 3rem;
   padding-left: 5rem;
 }
-.search-div {
+.search-div h2 {
   text-align: center;
   margin-top: 4rem;
   font-weight: 900;
@@ -140,16 +140,19 @@
   display: flex;
 }
 
+.icons-sec {
+  margin-left: 11rem;
+  margin-top: 1.5rem;
+}
+
 .first-card-sec .card1 {
   width: 12rem;
-  border: #001bb8;
   border-radius: 8px;
   margin-left: 1rem;
 }
 
 .second-card-section .card {
   width: 12rem;
-  border: #001bb8;
   border-radius: 8px;
   margin-left: 1.5rem;
   background-color: #eff2fe;
@@ -171,4 +174,37 @@
   color: #02113f;
   font-size: 32px;
   font-weight: 600;
+}
+
+/* new card test */
+
+.main {
+  width: 240px;
+  background-color: #ffffff;
+}
+
+.one {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 15px;
+  color: #b7b7b7;
+  font-weight: 600;
+}
+
+.money {
+  font-size: 18px;
+  font-weight: 600;
+  color: #dedbdb;
+}
+.details {
+  font-size: 8px;
+  font-weight: 500;
+  color: #0606b5;
+}
+.right {
+  font-size: 12px;
+  color: #0606b5;
 }
