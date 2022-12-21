@@ -104,6 +104,19 @@
   padding-left: 5rem;
   display: flex;
 }
+
+.icons-section {
+  padding-left: 5rem;
+  display: flex;
+}
+
+.icons-sec {
+  align-content: center;
+  padding: 2rem;
+  margin-right: 16rem;
+  display: flex;
+}
+
 .search-div h2 {
   text-align: center;
   margin-top: 4rem;
@@ -155,6 +168,31 @@
   border-style: inset;
 }
 
+.second-card .card h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #02113f;
+}
+
+.second-card span {
+  font-weight: 500;
+  font-size: 18px;
+  color: #02113f;
+}
+
+.first-section-bottom-text h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 34rem;
+  margin-left: 34rem;
+  font-size: 20px;
+  font-weight: 600;
+  color: #02113f;
+  border-style: outset;
+  border-radius: 4px;
+  border-color: #001bb8;
+}
+
 .second-card-section .card {
   width: 12rem;
   border-radius: 8px;
@@ -163,7 +201,7 @@
 }
 
 .second-card-section {
-  margin-left: 6rem;
+  margin-left: 8rem;
 }
 
 .second-card-section .h6 {
