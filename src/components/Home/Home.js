@@ -16,6 +16,7 @@ import Registeraccount from "../Images/registeraccount.png";
 import Createresume from "../Images/createresume.png";
 import Findmatchjobs from "../Images/findmatchjobs.png";
 import Easyapply from "../Images/easyapply.png";
+
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -80,6 +81,9 @@ export const Home = () => {
       </section>
 
       <section className="container-fluid">
+        <div>
+          <img src="" alt="..." />
+        </div>
         <div className="search-div container-fluid">
           <h2>Search For A Job </h2>
           <h3>

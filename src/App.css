@@ -44,6 +44,7 @@
   color: white;
   width: 120px;
   height: 40px;
+  border: none;
   background: #001bb8;
   border-radius: 8px;
   order: 2;
@@ -87,6 +88,7 @@
   margin-top: 1rem;
   margin-left: 4rem;
   color: white;
+  border: none;
   background: #001bb8;
   border-radius: 8px;
 }
@@ -103,6 +105,36 @@
   padding-top: 0.5rem;
   padding-left: 5rem;
   display: flex;
+}
+
+.card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+.card2 {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card2:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+.card1 {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card1:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
 }
 
 .icons-section {
@@ -129,14 +161,22 @@
   font-weight: 400;
   text-align: center;
 }
+/* .first-section-bottom-text {
+  width: 331px;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+} */
 
 .search-box {
-  margin-left: 30rem;
+  margin-left: 26rem;
   padding-top: 2rem;
 }
 .search-box-text {
-  padding: 4px;
-  width: 50%;
+  width: 598px;
+  height: 63px;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 .first-section-top-div-text h2 {
