@@ -81,9 +81,6 @@ export const Home = () => {
       </section>
 
       <section className="container-fluid">
-        <div>
-          <img src="" alt="..." />
-        </div>
         <div className="search-div container-fluid">
           <h2>Search For A Job </h2>
           <h3>
@@ -429,6 +426,8 @@ export const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Card carousel section */}
     </div>
   );
 };
