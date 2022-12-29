@@ -4,10 +4,10 @@ import Marketing from "../components/Images/marketing.png";
 export const Card = () => {
   return (
     <div>
-      <div className="first-section-top-div-text">
-        <h2>Explore by Categories</h2>
-      </div>
       <div className="container">
+        <div className="first-section-top-div-text">
+          <h2>Explore by Categories</h2>
+        </div>
         <div class="first-card-sec container d-flex  mt-5 ">
           <div class="row ">
             <div class="col-md-4">

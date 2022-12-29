@@ -1,3 +1,7 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -69,14 +73,16 @@
 }
 
 .hero-left-div h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
-  padding-top: 4rem;
+  padding-top: 8rem;
   padding-left: 4rem;
   color: #02113f;
 }
 
 .hero-left-div h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 4rem;
   font-size: 20px;
 }
@@ -95,14 +101,57 @@
 
 .icons-div h2 {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-size: 32px;
   font-weight: 600;
   color: #02113f;
 }
 
+.icons-sec {
+  align-content: center;
+  padding-bottom: 2rem;
+  margin-top: -2rem;
+  margin-right: 16rem;
+  display: flex;
+}
+
+.first-section-bottom-text h2 {
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-right: 30rem;
+  margin-left: 30rem;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #001bb8;
+  border-radius: 4px;
+  border-color: #001bb8;
+}
+
 .container {
-  padding-top: 0.5rem;
+  margin-top: -16rem;
+  padding-left: 5rem;
+  display: flex;
+}
+
+.first-card-section-top-div-text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #02113f;
+  padding-top: 6rem;
+  margin-bottom: -6rem;
+}
+
+.first-section-bottom-text h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #02113f;
+  margin-top: 3rem;
+}
+
+.secondstackcard {
   padding-left: 5rem;
   display: flex;
 }
@@ -137,18 +186,6 @@
   transform: scale(1.1);
 }
 
-.icons-section {
-  padding-left: 5rem;
-  display: flex;
-}
-
-.icons-sec {
-  align-content: center;
-  padding: 2rem;
-  margin-right: 16rem;
-  display: flex;
-}
-
 .search-div h2 {
   text-align: center;
   margin-top: 4rem;
@@ -161,30 +198,30 @@
   font-weight: 400;
   text-align: center;
 }
-/* .first-section-bottom-text {
-  width: 331px;
-  display: flex;
-  flex-direction: row;
-  height: 60px;
-} */
 
-.search-box {
+.first-card-section-bottom-text {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #02113f;
+  margin-top: 3rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin-left: 26rem;
+  margin-right: 26rem;
+  border: 1px solid #001bb8;
+  border-radius: 10px;
+}
+
+.SearchBox {
+  margin-left: 22rem;
   padding-top: 2rem;
 }
-.search-box-text {
+.SearchBox-text {
   width: 598px;
   height: 63px;
   border: 1px solid #000000;
   border-radius: 10px;
-}
-
-.first-section-top-div-text h2 {
-  font-size: 32px;
-  font-weight: 600;
-  text-align: center;
-  color: #02113f;
-  padding-top: 4rem;
 }
 
 .second-section-top-div-text h2 {
@@ -197,40 +234,13 @@
 
 .icons-sec {
   margin-left: 11rem;
-  margin-top: 1.5rem;
 }
 
 .first-card-sec .card1 {
   width: 12rem;
   border-radius: 8px;
   margin-left: 1rem;
-  border: #001bb8;
-  border-style: inset;
-}
-
-.second-card .card h6 {
-  font-weight: 600;
-  font-size: 16px;
-  color: #02113f;
-}
-
-.second-card span {
-  font-weight: 500;
-  font-size: 18px;
-  color: #02113f;
-}
-
-.first-section-bottom-text h2 {
-  text-align: center;
-  margin-top: 2rem;
-  margin-right: 34rem;
-  margin-left: 34rem;
-  font-size: 20px;
-  font-weight: 600;
-  color: #02113f;
-  border-style: outset;
-  border-radius: 4px;
-  border-color: #001bb8;
+  border: 1px solid #001bb8;
 }
 
 .second-card-section .card {
@@ -238,10 +248,6 @@
   border-radius: 8px;
   margin-left: 1.5rem;
   background-color: #eff2fe;
-}
-
-.second-card-section {
-  margin-left: 8rem;
 }
 
 .second-card-section .h6 {
@@ -258,35 +264,129 @@
   font-weight: 600;
 }
 
+.Howitworkscardstyle {
+  padding-top: 2rem;
+}
+
 .third-section {
   border-radius: 8px;
-  margin: 10rem;
+  margin: 4rem;
   padding-bottom: 2rem;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-  border-style: inset;
+  border: 0.5px solid lightgray;
+}
+
+.third-section-card {
+  border: none;
+  margin: 1rem;
+  padding-top: 0.5rem;
 }
 
 .container3 {
   padding-top: 0.5rem;
-  padding-left: 1rem;
 }
 
-.card2 {
-  padding-right: 2rem;
+.Card-text {
+  margin-top: 1.5rem;
 }
 
-.card2 h2 {
+.Card-text h2 {
+  color: #02113f;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Card-text h4 {
+  color: #02113f;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Card-link {
+  margin-left: -8px;
+}
+
+.bootstrapcard {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.cards-bootstrap {
+  padding: 3rem;
+}
+
+.client-text {
+  text-align: center;
   font-size: 32px;
   font-weight: 600;
-  color: #02113f;
+  padding-bottom: 2rem;
 }
 
-.card2 h4 {
+.Client-name-Text h2 {
   font-size: 24px;
-  font-weight: 500;
-  color: #02113f;
+  font-weight: 600;
+  color: #000000;
 }
 
-#btn-third-card {
-  margin-left: -8px;
+.Client-name-Text h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.client-image-and-text-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.bootstrap-card {
+  background: #eef1fe;
+}
+/* .Client-name-Text{
+
+} */
+
+.Explore-other-job-function-text {
+  text-align: center;
+  padding-top: 4rem;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.a {
+  margin-top: 3rem;
+  padding: 3rem 1rem 3rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  font-weight: 400;
+  list-style: none;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.footer-section {
+  margin-top: 2rem;
+  background-color: #121212;
+}
+
+.footer-top-div-container {
+  padding-top: 4rem;
+  padding-right: 8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-top-div-container {
+  color: white;
+}
+
+.footer-top-div-container h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.footer-top-div-container ul {
+  font-size: 16px;
+  font-weight: 500;
 }
